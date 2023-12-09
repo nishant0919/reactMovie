@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url('https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg');
+
+}
+header{
+  height: 10vh;
+  background: #fff;
+  display: flex;
+  background-image: url('https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg');
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  color: #fff;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+}
+ul li a:hover{
+  transition: 0.2s ease-in-out ;
+  color: rgb(126, 42, 42);
+}
+.carousel{
+  width: 94vw;
+}
+.carousel-caption{
+  background: transparent;
+  position: absolute;
+  bottom: 100px;
+}
+.carousel-caption h5{
+  color: rgb(37, 201, 72);
+  font-size: 50px;
+  font-style: bold;
+  background: transparent;
+}
+.carousel-caption p{
+  color: rgb(44, 7, 131);
+  font-size: 20px;
+  background: transparent;
+}
+.mainContainer{
+  height: 20vh;
+  width: auto;
+  margin: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.mainContainer img{
+  height: 250px;
+  width: 190px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container { 
+  padding: 0 !important;
+  margin:30px !important;
+
+ }
