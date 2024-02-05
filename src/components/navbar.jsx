@@ -1,10 +1,12 @@
-import { FaSearch } from 'react-icons/fa';
+import SearchBar from "./searchbar";
+
 function Navbar(){
     return(
+        
         <header>
             <nav>
                 <div className="logo">
-                <h1>Desihub</h1>
+                <h1>ReactMovie</h1>
                 </div>
                 <div className="menu">
                 <ul>
@@ -13,7 +15,8 @@ function Navbar(){
                     <li><a href="#popular">Popular</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#search"><FaSearch /></a></li>
+                    <li><a href="#search"><SearchBar/></a></li>
+                    
                 </ul>
                 </div>
             </nav>

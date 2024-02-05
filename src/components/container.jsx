@@ -1,7 +1,7 @@
 function Container(){
 return(
     <div className="mainContainer">
-        <h1 color="White">Most Popular</h1>
+        <h1>Most Popular</h1>
         <div className="cards">
         <div className="cardContainer">
         <img src="https://th.bing.com/th/id/OIP.ATDrvdlwYQboxpBGEeh3ZQAAAA?rs=1&pid=ImgDetMain" alt="GOT" />
