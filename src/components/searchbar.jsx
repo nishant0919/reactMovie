@@ -21,7 +21,7 @@ const SearchBar = () => {
          />
         ) : (
           <div>
-            {/* Your search icon component or image */}
+           
             <ul>
 
             <span aria-label="Search Icon">
