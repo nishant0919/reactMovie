@@ -54,9 +54,7 @@
     }
   }
   
-  .card-container:hover .card-image {
-    transform: scale(1.1);
-  }
+
   
   .card-container:hover .card-description {
     opacity: 1;
